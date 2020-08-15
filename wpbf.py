@@ -17,10 +17,10 @@ def loadLst(fileName, lstName):
 
 if len(sys.argv) <= 1:
     print 'WP-Brute v2.0 by ZeroXsec666'
-    print 'Website: http://www.zetoxsec666.eu.org'
+    print 'Website: http://www.zeroxsec666.eu.org'
     print 'Mail   : zeroxsec@gmail.com'
     print ''
-    print 'Syntax: python WP-Brute [-u USER|-U FILE] [-p PASS|-P FILE] -h URL [OPT]'
+    print 'Syntax: python2 WP-Brute [-u USER|-U FILE] [-p PASS|-P FILE] -h URL [OPT]'
     print ''
     print 'Options:'
     print '-h URL'
@@ -33,7 +33,7 @@ if len(sys.argv) <= 1:
     print '-g user-agent - default: "Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20100101 Firefox/5.0"'
     print '-x use proxy | ex: 127.0.0.1:1234'
     print ''
-    print 'Examples: python wpbf.py -h http://test.com/wp-login.php -u admin -P password.txt'
+    print 'Examples: python2 wpbf.py -h http://test.com/wp-login.php -u admin -P password.txt'
     sys.exit()
 
 print 'WP-Brute by ZeroXsec666'
